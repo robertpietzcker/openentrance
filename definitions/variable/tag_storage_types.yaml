@@ -2,8 +2,7 @@
 # in a variable-definition yaml file
 
 # This list is intended for use as input energy storage system to the power sector
-# it only accounts for  storage options which are not "generating" energy , meaning that it
-# does not include hydro 
+# It does include Pumped Hydro - when analyzing variables, make sure to check for reporting overlap with hydro variables  
 
 - Storage Type:
   - Battery:
